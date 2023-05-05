@@ -1,0 +1,45 @@
+@import url('./main.css');
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.container .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap : 10px;
+    background-color: lightblue;
+    height: 200px;
+}
+
+.container .header input[type="text"]{
+    height: 30px;
+    width: 500px;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.container .header button{
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+}
+
+.container .list {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap : 15px;
+}
